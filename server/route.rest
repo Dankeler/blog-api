@@ -1,0 +1,16 @@
+//GET http://127.0.0.1:27017/
+
+###
+
+GET http://localhost:3000/posts
+###
+GET http://localhost:3000/posts/12
+###
+POST http://localhost:3000/posts/create
+Content-Type: application/json
+
+{
+    "user": "test1",
+    "title": "test1title",
+    "content": "test1content"
+}
